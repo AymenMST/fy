@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Sacramento');
+*{
+    font-family: 'Dancing Script';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    background: linear-gradient(to left, rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(Pictures/g.jpg) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main {
+    height: 70vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 200%;
+}
+
+.slider{
+    width: 70%;
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.slider img{
+    width: auto;
+    height: 100%;
+    box-shadow: 0px 0px 50px #fff;
+    margin: 0 auto;
+}
+
+.all-slider{
+    display: flex;
+    align-items: center;
+}
+
+.fas{
+    color: #fff;
+    font-size: 400%;
+}
+
+.fas:hover{
+    cursor: pointer;
+}
+
+.para{
+    display: none;
+    width: 70%;
+    margin: 0 auto;
+    height: 20vh;
+}
+
+.para>h2{
+    color: #fff;
+}
+
+.para>button{
+    padding: 5% 20%;
+    border: 3px solid red;
+    border-radius: 20px;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.para>button>a{
+    color: #fff;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+.para>button:hover{
+    background-color: red;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
